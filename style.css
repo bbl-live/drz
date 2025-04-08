@@ -1,0 +1,167 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f5f7fa;
+    color: #333;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 24px;
+    color: #ff4c4c;
+}
+
+.domain-name {
+    font-size: 22px;
+    font-weight: 600;
+    color: #222;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.price span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4c4c;
+}
+
+.buy-now {
+    display: inline-block;
+    text-decoration: none;
+    background: #ff4c4c;
+    color: white;
+    padding: 10px 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.buy-now:hover {
+    background: #cc3b3b;
+}
+
+.offer-section {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+
+.offer-section h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 20px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form textarea {
+    height: 100px;
+    resize: none;
+}
+
+form button {
+    background: orange;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: red;
+}
+
+.other-domains {
+    margin-top: 30px;
+}
+
+.other-domains h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.domain-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.domain-item {
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.check-btn {
+    text-decoration: none;
+    background: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.check-btn:hover {
+    background: #218838;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    border-radius: 50%;
+    color: #2d3748;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    background-color: var(--primary-light);
+}
